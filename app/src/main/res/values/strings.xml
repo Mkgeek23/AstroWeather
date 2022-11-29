@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">AstroWeather2</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btViewPagerText">View Pager</string>
+    <string name="btSettingsText">Options</string>
+    <string name="btExitText">Exit</string>
+
+    <string name="LatitudeText">Latitude:</string>
+    <string name="LongitudeText">Longitude:</string>
+    <string name="RefreshText">Refresh time (in secs):</string>
+
+    <string name="LatitudeTextHint">Latitude</string>
+    <string name="LongitudeTextHint">Longitude</string>
+    <string name="RefreshTextHint">Refresh time (in secs)</string>
+
+
+    <string name="SunriseText">Sunrise\n (time)</string>
+    <string name="SunsetText">Sunset\n (time)</string>
+    <string name="AzimuthRiseText">Sunrise\n (azimuth)</string>
+    <string name="AzimuthSetText">Sunset\n (azimuth)</string>
+    <string name="TwilightEveningText">Twilight\nEvening</string>
+    <string name="TwilightMorningText">Twilight\nMorning</string>
+
+    <string name="MoonriseText">Moonrise\n (time)</string>
+    <string name="MoonsetText">Moonset\n (time)</string>
+    <string name="NextNewMoonText">Next\nNew Moon</string>
+    <string name="NextFoolMoonText">Next\nFull Moon</string>
+    <string name="MoonIlluminationText">Phase</string>
+    <string name="MoonAgeText">Day of the\nsynodic month</string>
+
+
+    <string name="SunText">Sun</string>
+    <string name="MoonText">Moon</string>
+
+    <string-array name="temp_units">
+        <item>Kelvin</item>
+        <item>Celsius</item>
+    </string-array>
+
+    <string-array name="dist_units">
+        <item>Kilometer</item>
+        <item>Mile</item>
+    </string-array>
+    <string name="title_activity_city_list">CityList</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+</resources>

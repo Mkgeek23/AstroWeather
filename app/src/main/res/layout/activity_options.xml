@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".OptionsActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:text="City Name"
+    />
+
+    <EditText
+        android:id="@+id/editCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="30sp"
+        android:textAlignment="center"
+        android:hint="Enter City Name"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:text="Country Code (Optional)"
+        />
+
+    <EditText
+        android:id="@+id/editCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="30sp"
+        android:textAlignment="center"
+        android:hint="Enter Country Code (Optional)"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:text="@string/RefreshText"
+    />
+
+    <EditText
+        android:id="@+id/editRefreshTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:inputType="number"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="30sp"
+        android:textAlignment="center"
+        android:hint="@string/RefreshTextHint"
+        />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="1"
+        android:orientation="horizontal"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="15sp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_columnWeight=".4"
+            android:layout_gravity="fill"
+            android:gravity="right"
+            android:textSize="24sp"
+            android:text="Temp unit: "
+            />
+        <Spinner
+            android:id="@+id/temp_spinner"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_columnWeight=".4"
+            android:layout_gravity="center_vertical"
+            android:gravity="right"
+            android:textSize="24sp"/>
+    </GridLayout>
+    <GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="2"
+    android:rowCount="1"
+    android:orientation="horizontal"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_columnWeight=".4"
+            android:layout_gravity="fill"
+            android:gravity="right"
+            android:textSize="24sp"
+            android:text="Dist unit: "
+            />
+        <Spinner
+            android:id="@+id/distance_spinner"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_columnWeight=".4"
+            android:layout_gravity="center_vertical"
+            android:gravity="right"
+            android:textSize="24sp"/>
+    </GridLayout>
+
+
+
+    <Button
+        android:id="@+id/btnSaveOptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textSize="20sp"
+        android:layout_marginTop="30sp"
+        />
+
+</LinearLayout>

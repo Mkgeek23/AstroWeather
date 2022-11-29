@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/refresh"
+        android:icon="@drawable/ic_icon_refresh"
+        android:title="Refresh"
+        app:showAsAction="ifRoom"
+        />
+    <item android:id="@+id/city_list"
+        android:icon="@drawable/ic_icon_refresh"
+        android:title="City List"
+        app:showAsAction="never"
+        />
+</menu>
