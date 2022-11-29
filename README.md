@@ -1,68 +1,64 @@
 # Astro Weather
 
-Aplikacja na urządzenia mobilne z systemem Android do sprawdzania informacji na temat słońca, księżyca oraz pogody.
+Application for Android devices to check information about the sun, moon and weather.
 
-### Wykorzystane technologie:
+### Technologies used:
 <div>  
 <a href="https://www.android.com/intl/en_in/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/android-original-wordmark.svg" alt="Android" height="50" /></a>  
 <a href="https://kotlinlang.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/kotlinlang-icon.svg" alt="Kotlin" height="50" /></a>
 </div>
 
-## Szczegółowy opis aplikacji
+## Detailed description of the application
 
-Aplikacja Astro Weather pozwala na sprawdzenie informacji na temat słońca, księżyca oraz pogody w wybranej przez nas lokalizacji.
+The Astro Weather application allows you to check information about the sun, moon, weather and forecast in the location of your choice.
 
-### Informacje o Słońcu
+### Sun information
 
-Po uruchomieniu aplikacji w zakładce SUN możemy znaleźć informacje na temat:
-- wschodu słońca
-- azymutu wschodu słońca
-- zachodu słońca
-- azymutu zachodu słońca
-- zmierzchu porannego
-- zmierzchu wieczornego
+After starting the application in the SUN tab, we can find information about:
+- sunrise (time)
+- sunrise (azimuth)
+- sunset (time)
+- sunset (azimuth)
+- twilight evening
+- twilight morning
 
 ![App Screenshot](screenshots/screen1.png)
 
-### Informacje o Księżycu
+### Moon information
 
-Po uruchomieniu aplikacji w zakładce MOON możemy znaleźć informacje na temat:
-- wschodu księżyca
-- zachodu księżyca
-- daty nowego księżyca
-- daty pełnego zaćmienia
-- aktualnej fazy księżyca
-- dzień miesiąca synodalnego
+After starting the application in the MOON tab, we can find information about:
+- moonrise (time)
+- moonset (time)
+- next new moon
+- next full moon
+- phase
+- day of the synodic month
 
 ![App Screenshot](screenshots/screen2.png)
 
-### Pogoda
+### Weather
 
-W zakładce WEATHER możemy znaleźć informacje na temat aktualnej pogody. Ponadto mamy tam informacje o tym, kiedy ostatnio dane te zostały odświeżone
-
+In the weather tab we can find information about the current weather. In addition, w have there information about when the data was last refreshed.
 
 ![App Screenshot](screenshots/screen3.png)
 
+### Forecast
 
-
-### Prognoza pogody
-
-W zakładce FORECAST możemy znaleźć informacje na temat prognozy pogody w formie przewijalnej listy.
-
+In the forecast tab we can find inforation about forecast in the form of scrollable list.
 
 ![App Screenshot](screenshots/screen4.png)
 
-## Ustawienia
+## Settings
 
-Aplikacja pozwala również na zmianę ustawień. Na stronie ustawień można zmienić:
-- Nazwę miasta (Dla którego pobierane będą dane w aplikacji)
-- (opcjonalnie) nazwa kraju
-- częstotliwość odświeżania danych
-- jednostkę temperatury (Kelvin, Celcius)
-- jednostkę odległości (Mile, Kilometry)
+The application also allows you to change the settings. On the settings page you can change:
+- Name of the city (For which data will be collected in the application)
+- (optional) Country name
+- frequency of data refresh
+- temperature unit (Kelvin, Celcius)
+- distance unit (Miles, Kilometers)
 
 ![App Screenshot](screenshots/screen6.png)
 
-Dodatkowo aplikacja zapisuje miasta, dla których wyszukiwaliśmy danych, dzięki czemu możemy łatwo się między nimi przełączać.
+In addition, the application saves the cities for which we searched for data, so we can easily switch between them.
 
 ![App Screenshot](screenshots/screen5.png)
